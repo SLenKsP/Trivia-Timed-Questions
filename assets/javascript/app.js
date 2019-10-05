@@ -185,7 +185,7 @@ var trivia = {
         $("#questionBlock").append(trivia.timeOutImage());
         setTimeout(() => {
           trivia.nextQuestion();
-        }, 4000);
+        }, 5000);
         $("#timer").remove();
         $("#done").remove();
         clearTimeout(remainingTime);
